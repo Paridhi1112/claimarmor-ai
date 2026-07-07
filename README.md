@@ -57,20 +57,21 @@ The project implements a hierarchical, parent-child multi-agent framework to iso
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/claimarmor-ai.git](https://github.com/YOUR_USERNAME/claimarmor-ai.git)
+git clone [https://github.com/Paridhi1112/claimarmor-ai.git](https://github.com/Paridhi1112/claimarmor-ai.git)
 cd claimarmor-ai
 
 ## Project Structure
 
 ```
+
 claimarmor-agent/
-├── app/         # Core agent code
-│   ├── agent.py               # Main agent logic
-│   ├── agent_runtime_app.py    # Agent Runtime application logic
-│   └── app_utils/             # App utilities and helpers
-├── tests/                     # Unit, integration, and load tests
-├── GEMINI.md                  # AI-assisted development guide
-└── pyproject.toml             # Project dependencies
+├── app/                     # Core agent code
+│   ├── agent.py             # Main agent logic
+│   ├── agent_runtime_app.py # Agent Runtime application logic
+│   └── app_utils/           # App utilities and helpers
+├── tests/                   # Unit, integration, and load tests
+├── GEMINI.md                # AI-assisted development guide
+└── pyproject.toml           # Project dependencies
 ```
 
 > 💡 **Tip:** Use [Gemini CLI](https://github.com/google-gemini/gemini-cli) for AI-assisted development - project context is pre-configured in `GEMINI.md`.
