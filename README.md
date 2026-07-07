@@ -29,8 +29,8 @@ ClaimArmor AI democratizes claims advocacy by automating the end-to-end claim re
 
 The project implements a hierarchical, parent-child multi-agent framework to isolate task scopes and minimize hallucination vectors.
 
-![ClaimArmor AI Architecture](link-to-your-architecture-image.png)
-*(Note: Upload your architecture diagram to GitHub and replace the link above)*
+![ClaimArmor AI Architecture](https://github.com/Paridhi1112/claimarmor-ai/blob/main/ClainArmor%20Architecture%20Diagram.png)
+
 
 ### Swarm Nodes:
 * **The Negotiator (Supervisor Node):** Evaluates overall state, executes mathematical formulas, drafts legal text, and manages Human-in-the-Loop (HITL) governance intercept loops.
