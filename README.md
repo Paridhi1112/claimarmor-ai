@@ -3,7 +3,7 @@
 
 **Track:** Agents for Business  
 **Submission for:** Kaggle 5-Day AI Agents: Intensive Vibe Coding Capstone Project  
-**Video Demo:** [\[https://www.youtube.com/watch?v=w7IDOcQFHCA\]]
+**Video Demo:** https://www.youtube.com/watch?v=w7IDOcQFHCA
 
 ClaimArmor AI is an autonomous, event-driven multi-agent system engineered using the Google Agent Development Kit (ADK) and `agents-cli`. It automates insurance policy auditing via the Model Context Protocol (MCP) and extracts real-time regional parts and labor market intelligence to calculate accurate Diminished Value and generate authoritative insurance demand letters.
 
@@ -29,7 +29,7 @@ ClaimArmor AI democratizes claims advocacy by automating the end-to-end claim re
 
 The project implements a hierarchical, parent-child multi-agent framework to isolate task scopes and minimize hallucination vectors.
 
-![ClaimArmor AI Architecture](https://github.com/Paridhi1112/claimarmor-ai/blob/main/ClainArmor%20Architecture%20Diagram.png)
+![ClaimArmor AI Architecture](https://github.com/Paridhi1112/claimarmor-ai/blob/main/ClaimArmor%20Architecture%20Diagram.png)
 
 
 ### Swarm Nodes:
