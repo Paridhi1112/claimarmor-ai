@@ -1,7 +1,64 @@
-# claimarmor-agent
 
-ReAct agent with A2A protocol [experimental]
-Agent generated with `agents-cli` version `0.5.0`
+# 🛡️ ClaimArmor AI: Intelligent Multi-Agent Claims Advocacy Swarm
+
+**Track:** Agents for Business  
+**Submission for:** Kaggle 5-Day AI Agents: Intensive Vibe Coding Capstone Project  
+**Video Demo:** [\[https://www.youtube.com/watch?v=w7IDOcQFHCA\]]
+
+ClaimArmor AI is an autonomous, event-driven multi-agent system engineered using the Google Agent Development Kit (ADK) and `agents-cli`. It automates insurance policy auditing via the Model Context Protocol (MCP) and extracts real-time regional parts and labor market intelligence to calculate accurate Diminished Value and generate authoritative insurance demand letters.
+
+---
+
+## 🛑 The Problem
+
+In the modern insurance landscape, everyday consumers face a massive information and technical asymmetry. Adjusters utilize proprietary estimating software to generate repair offers that frequently default to aftermarket components and depressed, non-negotiated local auto body labor rates. 
+
+Average policyholders lack the domain expertise to dissect complex, unstructured insurance policies or the real-time market data required to challenge these evaluations. This results in systemic claim undervaluation and unrecovered **Diminished Value** (the inherent loss in a vehicle's market worth even after perfect structural repairs).
+
+## 💡 The Solution
+
+ClaimArmor AI democratizes claims advocacy by automating the end-to-end claim review process. By abandoning the fragile single-agent paradigm in favor of a specialized multi-agent swarm, the system can reliably:
+1. Parse unstructured legal policies locally using MCP.
+2. Extract real-time regional labor and parts market intelligence via Agent Skills.
+3. Programmatically calculate industry-standard Diminished Value (17c formula).
+4. Synthesize inputs into an authoritative, data-backed formal demand letter.
+
+---
+
+## 🏗️ System Architecture
+
+The project implements a hierarchical, parent-child multi-agent framework to isolate task scopes and minimize hallucination vectors.
+
+![ClaimArmor AI Architecture](link-to-your-architecture-image.png)
+*(Note: Upload your architecture diagram to GitHub and replace the link above)*
+
+### Swarm Nodes:
+* **The Negotiator (Supervisor Node):** Evaluates overall state, executes mathematical formulas, drafts legal text, and manages Human-in-the-Loop (HITL) governance intercept loops.
+* **The Policy Auditor (MCP Specialist):** Securely reads unstructured policy documents (`docs/policy.txt`) via a read-only filesystem attachment and converts parameters into a strict JSON payload.
+* **The Parts Scout (Skill Node):** Leverages live web search capabilities (`duckduckgo_search`) to extract localized auto body labor rates and replacement asset valuations.
+
+---
+
+## ⚙️ Key Features Applied (Course Concepts)
+
+* **Multi-Agent Orchestration (ADK):** Uses the ADK's native `sub_agents` routing to establish a strict execution graph.
+* **Secure MCP Server:** Integrates `@modelcontextprotocol/server-filesystem` for sandboxed, read-only file access.
+* **Dynamic Agent Skills:** Custom Python tooling for live RAG (Retrieval-Augmented Generation) via web search.
+* **Human-in-the-Loop (HITL):** Enforces a mandatory intercept gateway (`approve_draft`) preventing final text assembly until explicit human confirmation.
+* **Rate-Limit Backoff:** Outfitted with an exponential retry wrapper (`HttpRetryOptions`) to handle concurrent sub-agent API spikes gracefully.
+
+---
+
+## 🚀 Setup & Installation
+
+### Prerequisites
+* Python 3.11 or 3.12
+* **uv**: Python package manager - [Install Instructions](https://docs.astral.sh/uv/getting-started/installation/)
+
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/claimarmor-ai.git](https://github.com/YOUR_USERNAME/claimarmor-ai.git)
+cd claimarmor-ai
 
 ## Project Structure
 
