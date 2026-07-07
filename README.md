@@ -57,7 +57,7 @@ The project implements a hierarchical, parent-child multi-agent framework to iso
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Paridhi1112/claimarmor-ai.git](https://github.com/Paridhi1112/claimarmor-ai.git)
+git clone https://github.com/Paridhi1112/claimarmor-ai.git
 cd claimarmor-ai
 
 ## Project Structure
