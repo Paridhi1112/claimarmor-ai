@@ -1,0 +1,39 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "full_claim_demand_letter",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "I need a demand letter. My 2022 Honda Civic (18,500 miles) was rear-ended in Dallas, TX. The insurance company's estimate is $4,200 but my body shop quoted $5,800. My policy reads: 'Comprehensive Deductible: $500. Collision Deductible: $500. Rental Car: $40/day. OEM parts required for vehicles under 3 years old.' Please audit my policy, look up current parts and labor rates in Dallas, calculate my diminished value, and draft the demand letter."}]
+      }
+    },
+    {
+      "eval_case_id": "diminished_value_17c_calculation",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "My 2021 Toyota Camry XSE has a NADA clean retail value of $28,000. It was in a moderate collision — airbags did NOT deploy but there was structural damage. It has 32,000 miles. Please calculate the 17c diminished value formula step-by-step."}]
+      }
+    },
+    {
+      "eval_case_id": "oem_vs_aftermarket_dispute",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "My policy says OEM parts are required for vehicles under 3 years old. My car is a 2024 Ford F-150 (8 months old). State Farm's estimate uses aftermarket headlights and a non-OEM hood. What are my rights and what should I say in my dispute letter?"}]
+      }
+    },
+    {
+      "eval_case_id": "rental_car_coverage_dispute",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "My policy allows $40/day for a rental car. My car has been in the shop for 14 days. The insurance company only wants to cover 10 days because they say repairs should have only taken that long. My shop says the delay was due to parts availability. How do I dispute this?"}]
+      }
+    },
+    {
+      "eval_case_id": "labor_rate_underpayment",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "The insurance company's estimate uses a labor rate of $55/hr for body work in Austin, TX. My certified collision center charges $95/hr. They're claiming their 'prevailing rate' is $55. Can you look up actual body shop labor rates in Austin, TX and tell me if this is accurate?"}]
+      }
+    }
+  ]
+}

@@ -1,17 +1,24 @@
 {
   "eval_cases": [
     {
-      "eval_case_id": "greeting",
+      "eval_case_id": "greeting_capabilities",
       "prompt": {
         "role": "user",
-        "parts": [{"text": "Hello, what can you help me with?"}]
+        "parts": [{"text": "Hello! I just had my car hit by another driver. Can you help me understand what ClaimArmor AI can do for me?"}]
       }
     },
     {
-      "eval_case_id": "capability_query",
+      "eval_case_id": "diminished_value_query",
       "prompt": {
         "role": "user",
-        "parts": [{"text": "What tools do you have available?"}]
+        "parts": [{"text": "My 2022 Honda Civic with 18,000 miles was totaled and repaired. The insurance company says there is no diminished value. Is that true and how is it calculated?"}]
+      }
+    },
+    {
+      "eval_case_id": "oem_parts_entitlement",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "My car is 2 years old and the insurance company wants to use aftermarket parts. My policy says: 'OEM parts are required for vehicles under 3 years old.' Can they do this?"}]
       }
     }
   ]
