@@ -53,40 +53,62 @@ The project implements a hierarchical, parent-child multi-agent framework to iso
 
 ### Prerequisites
 * Python 3.11 or 3.12
-* **uv**: Python package manager - [Install Instructions](https://docs.astral.sh/uv/getting-started/installation/)
+* **uv**: Python package manager — [Install Instructions](https://docs.astral.sh/uv/getting-started/installation/)
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/Paridhi1112/claimarmor-ai.git
 cd claimarmor-ai
+```
+
+### 2. Configure Environment Variables
+
+Copy the example env file and fill in your values:
+
+```bash
+cp .env.example .env
+```
+
+Edit `.env` and set at minimum:
+- `GEMINI_API_KEY` — your key from [AI Studio](https://aistudio.google.com/app/apikey)
+- `GOOGLE_GENAI_USE_VERTEXAI=False` (for Gemini API Key mode)
+
+See `.env.example` for all available configuration options.
 
 ## Project Structure
 
 ```
-
-claimarmor-agent/
+claimarmor-ai/
 ├── app/                     # Core agent code
-│   ├── agent.py             # Main agent logic
-│   ├── agent_runtime_app.py # Agent Runtime application logic
-│   └── app_utils/           # App utilities and helpers
-├── tests/                   # Unit, integration, and load tests
+│   ├── agent.py             # Main multi-agent logic (Negotiator, Policy Auditor, Parts Scout)
+│   ├── agent_runtime_app.py # Agent Runtime / A2A application wrapper
+│   └── app_utils/           # Utility modules (telemetry, typing)
+├── docs/                    # Supporting documents for agent context
+│   └── policy.txt           # Synthetic insurance policy for Policy Auditor
+├── tests/                   # Unit, integration, and eval tests
+│   ├── unit/                # Unit tests (agent config, tools, models)
+│   ├── integration/         # Integration tests (streaming, end-to-end)
+│   └── eval/                # Eval datasets and config
+│       └── datasets/        # Domain-specific insurance claim scenarios
+├── CHANGELOG.md             # Version history
 ├── GEMINI.md                # AI-assisted development guide
 └── pyproject.toml           # Project dependencies
 ```
 
-> 💡 **Tip:** Use [Gemini CLI](https://github.com/google-gemini/gemini-cli) for AI-assisted development - project context is pre-configured in `GEMINI.md`.
+> 💡 **Tip:** Use [Gemini CLI](https://github.com/google-gemini/gemini-cli) for AI-assisted development — project context is pre-configured in `GEMINI.md`.
 
 ## Requirements
 
 Before you begin, ensure you have:
-- **uv**: Python package manager (used for all dependency management in this project) - [Install](https://docs.astral.sh/uv/getting-started/installation/) ([add packages](https://docs.astral.sh/uv/concepts/dependencies/) with `uv add <package>`)
-- **agents-cli**: Agents CLI - Install with `uv tool install google-agents-cli`
-- **Google Cloud SDK**: For GCP services - [Install](https://cloud.google.com/sdk/docs/install)
+- **uv**: Python package manager (used for all dependency management in this project) — [Install](https://docs.astral.sh/uv/getting-started/installation/) ([add packages](https://docs.astral.sh/uv/concepts/dependencies/) with `uv add <package>`)
+- **agents-cli**: Agents CLI — Install with `uv tool install google-agents-cli`
+- **Google Cloud SDK**: For GCP services — [Install](https://cloud.google.com/sdk/docs/install)
 
 
 ## Quick Start
 
-Install `agents-cli` and its skills if not already installed:
+Install `agents-cli` and its dependencies if not already installed:
 
 ```bash
 uvx google-agents-cli setup
@@ -131,7 +153,7 @@ You can also use features from the [ADK](https://adk.dev/) CLI with `uv run adk`
 
 ## Development
 
-Edit your agent logic in `app/agent.py` and test with `agents-cli playground` - it auto-reloads on save.
+Edit your agent logic in `app/agent.py` and test with `agents-cli playground` — it auto-reloads on save.
 
 ## Deployment
 

@@ -1,5 +1,129 @@
-"Policy Summary:
-Comprehensive Deductible: $500
-Collision Deductible: $500
-Rental Car Limit: $40 per day
-OEM Parts Clause: OEM parts are required for vehicles under 3 years old."
+SYNTHETIC AUTO INSURANCE POLICY — FOR TESTING PURPOSES ONLY
+Policy Number: CA-2024-00471-TX
+Insured: Jordan M. Rivera
+Policy Period: January 1, 2024 – December 31, 2024
+Insurer: Pacific Shield Mutual Insurance Co.
+Agent: Sarah L. Thompson, License #TX-988721
+
+=========================================================
+SECTION 1: COVERED VEHICLE
+=========================================================
+Year:  2022
+Make:  Honda
+Model: Civic Sport
+Trim:  Sport Hatchback
+VIN:   2HGFE2F55NH508421
+Color: Sonic Gray Pearl
+Purchase Date: March 15, 2022
+Current Odometer at Policy Inception: 14,820 miles
+
+=========================================================
+SECTION 2: DEDUCTIBLES
+=========================================================
+Comprehensive Deductible:     $500
+Collision Deductible:         $500
+Uninsured/Underinsured (UM):  $250
+
+=========================================================
+SECTION 3: COVERAGE LIMITS
+=========================================================
+Bodily Injury Liability:      $100,000 / $300,000 per occurrence
+Property Damage Liability:    $50,000 per occurrence
+Medical Payments (MedPay):    $5,000 per person
+Personal Injury Protection:   $10,000 (Texas PIP waived by insured — see endorsement E-4)
+Uninsured Motorist (UM/UIM):  $100,000 / $300,000
+
+=========================================================
+SECTION 4: RENTAL CAR COVERAGE
+=========================================================
+Daily Allowance:   $40.00 per day
+Maximum Duration:  30 days per occurrence
+Coverage Trigger:  Rental reimbursement begins on the date the covered vehicle is
+                   deemed undriveable due to a covered loss and ends on the earlier
+                   of: (a) the date repairs are completed, or (b) 30 days.
+Restrictions:      Insurer will pay reasonable rental rates at standard local market
+                   rates. Luxury, premium, or exotic vehicles are not eligible.
+                   Coverage does not apply during routine maintenance.
+
+=========================================================
+SECTION 5: PARTS & REPAIR STANDARDS
+=========================================================
+OEM Parts Clause (Endorsement P-7):
+  For covered vehicles less than three (3) model years old at the time of loss,
+  the insurer SHALL authorize and pay for Original Equipment Manufacturer (OEM)
+  replacement parts. This applies to all structural and cosmetic components
+  required to restore the vehicle to its pre-loss condition.
+
+  For vehicles three (3) or more model years old, the insurer may authorize the
+  use of Like-Kind-Quality (LKQ), aftermarket, or reconditioned parts provided
+  they meet or exceed OEM specifications. The insured may request OEM parts, but
+  the insurer's financial obligation will not exceed the cost of LKQ equivalent.
+
+Labor Rate Clause:
+  All repair labor rates shall be based on the prevailing market labor rate for
+  certified collision repair facilities within a 25-mile radius of the insured's
+  listed garaging address. The insurer may not apply a rate lower than the average
+  published rate for the region as determined by third-party market surveys.
+
+Paint & Materials:
+  Paint and materials reimbursement shall be calculated using the most current
+  MOTOR or Mitchell International database rates for the applicable repair region.
+
+=========================================================
+SECTION 6: TOTAL LOSS PROVISIONS
+=========================================================
+A vehicle shall be declared a total loss when the cost of repair exceeds 75% of
+the Actual Cash Value (ACV) of the vehicle at the time of loss. ACV is determined
+using NADA, Kelley Blue Book (KBB), or comparable market valuation tools,
+adjusted for mileage, condition, and regional market factors.
+
+=========================================================
+SECTION 7: DIMINISHED VALUE
+=========================================================
+This policy does NOT include first-party diminished value coverage. However, the
+insured retains the right to pursue a third-party diminished value claim against
+the at-fault party's insurer. In Texas, the industry-standard 17c formula
+(Georgia v. State Farm) may be cited as a reference calculation methodology,
+though it is not contractually binding on this policy.
+
+=========================================================
+SECTION 8: EXCLUSIONS
+=========================================================
+This policy does not cover:
+  - Mechanical breakdown or wear and tear
+  - Damage from natural wear (rust, deterioration)
+  - Loss due to intentional acts by the insured
+  - Racing or track events
+  - Commercial use (rideshare excluded unless endorsement R-2 is active)
+  - Custom equipment not declared at policy inception
+
+=========================================================
+SECTION 9: CLAIMS PROCESS
+=========================================================
+1. Report the claim within 24 hours of the loss.
+2. The insurer will assign an adjuster within 1 business day.
+3. An inspection will be completed within 3 business days.
+4. The insurer must provide a written estimate within 5 business days of inspection.
+5. If the insured disputes the estimate, they may invoke the Appraisal Clause
+   (Section 10) within 30 days of receiving the written estimate.
+
+=========================================================
+SECTION 10: APPRAISAL CLAUSE
+=========================================================
+If the insurer and insured disagree on the amount of loss, either party may demand
+an appraisal. Each party will select a competent, disinterested appraiser. The two
+appraisers will select an umpire. Agreement of any two of the three will determine
+the amount of loss. Each party bears the cost of their own appraiser; umpire costs
+are split equally.
+
+=========================================================
+SECTION 11: ENDORSEMENTS ATTACHED
+=========================================================
+- E-4:  Texas PIP Waiver
+- P-7:  OEM Parts Clause (see Section 5)
+- R-2:  Not active (Rideshare endorsement not purchased)
+- U-1:  Uninsured Motorist Property Damage (UMPD) — $3,500 limit, $250 deductible
+
+=========================================================
+END OF SYNTHETIC POLICY DOCUMENT
+=========================================================
